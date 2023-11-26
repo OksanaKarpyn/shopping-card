@@ -20,7 +20,7 @@
   
     transition: .5s;
     width: 100%;
-    /* border: 1px solid red; */
+   
     margin: 0 auto;
 }
 header{
@@ -30,7 +30,7 @@ header{
 }
 header .shopping {
     position: relative;
-    /* border: 1px solid red; */
+   
 }
 header .shopping i{
     font-size: 26px;
@@ -48,17 +48,14 @@ header .shopping .quantity {
     border-radius: 50%;
 }
 .list-menu {
-    /* max-width: 1199px; */
+  
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex : 0 0 33.33%;
     gap:20px ;
     margin-top: 50px;
-    /* border: 1px solid rgb(60, 21, 93); */
     width: 100%;
-    /* box-shadow: 0 50px 50px #757676; */
-
 }
 .list-menu .list-item{
     padding: 15px;
@@ -78,7 +75,7 @@ header .shopping .quantity {
 .list-menu .list-info{
     padding: 10px;
     text-align: center;
-    /* border: 1px solid red; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +88,6 @@ header .shopping .quantity {
     width: 400px;
     background-color: var(--bg-color-brown);
     height: 100vh;
-    /* border: 1px solid red; */
     transition: .5s;
 
 }
@@ -102,9 +98,6 @@ header .shopping .quantity {
     padding:  0 20px;
     height: 80px;
     border: 1px solid red;
-    /* align-items: center; */
-
-
 }
 .cards .checkout {
     position: absolute;
@@ -113,25 +106,18 @@ header .shopping .quantity {
     flex:  0 0 100%;
     justify-content: center;
     bottom: 0;
-    /* border: 1px solid red; */
     width: 100%;
-    /* color: var(--text-color-white); */
-   
-
 }
 .listcard{
     padding: 5px;
     height: 90px;
-    /* border: 1px solid red; */
 }
 .listcard li{
-    /* padding: 10px; */
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /* border: 1px solid red; */
     color: var(--text-color-white);
 }
 .listcard li .listCardImg{
@@ -182,7 +168,6 @@ header .shopping .quantity {
     left: calc(100% - 400px);
 }
 .container.active{
-    /* transform: translateX(-10px); */
     margin-left: 70px;
     max-width: 990px;
     left: calc(100% - 400px);
