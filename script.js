@@ -97,8 +97,7 @@ function initApp(){
 initApp();
 function addToCard(key){
     if(listCard[key] == null){
-        // listCard[key] = products[key];
-        // listCard[key].quantity = 1 ;
+
         listCard[key] = { ...products[key], quantity: 1 }; 
     }
     console.log(listCard); 
@@ -107,40 +106,10 @@ function addToCard(key){
     ricaricaCard();
     // console.log(ricaricaCard())
 }
-// function ricaricaCard(){
-//     listCard.innerHTML = ''; 
-//     let count = 0;
-//     let totalPrice = 0;
-//     listCard.forEach((value,key)=>{
-//         totalPrice += value.price;
-//         count += value.quantity;
 
-//         if (value !== null){
-//             let newdiv = document.createElement('li');
-//             newdiv.innerHTML = `
-//             <div class="listCardImg">
-//               <img src="${pathImg}${value.image}" alt="">
-//               <div>
-//                   <div> product name</div>
-//                   <div>${value.name}</div>
-//               </div>
-//             </div>
-//             <div>$${value.price.toLocaleString()}</div>
-           
-//             <button onclick="changequantity(${key},${value.quantity-1})">-</button>
-//             <div class="count">${value.quantity}</div>
-//             <button onclick="changequantity(${key},${value.quantity+1})">+</button>
-
-//             `;
-//             listcard.appendChild(newdiv)
-//         }
-//     })
-//     total.innerText = totalPrice.toLocaleString();
-//     quantity.innerText = count;
-// }
 
 function ricaricaCard() {
-    listcard.innerHTML = ''; // Corretto per utilizzare listcard, non listCard
+    listcard.innerHTML = ''; 
     let count = 0;
     let totalPrice = 0;
 
